@@ -1,0 +1,68 @@
+header{
+    
+    background-color: rgb(173, 208, 255);
+    height: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header p{
+    display:inline-block;
+    vertical-align:middle;
+	line-height:normal;
+}
+
+section.imagenes{
+    text-align: center;
+    width: 55%;
+    margin-left: 300px;
+}
+img.imagenes{
+    width: 110px;
+    height: 90px;
+}
+img.imagenes:hover{
+    opacity: 0.5;
+
+}
+
+article.menu{
+   height: 50px;
+   border-top: blue 10px solid ;
+   border-bottom: blue 10px solid;
+
+   
+}
+
+a.nav:hover{
+    background-color: rgb(171, 247, 234);
+    font-weight: bold;
+}
+
+nav{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-right: 200px; 
+    margin-top: 15px;
+}
+
+nav a{
+    text-decoration:none;
+    color: black;
+}
+
+p.historia{
+    background-image: url(img/valencia_antigua.jpg);
+    width: 60vw;
+    border: black 2px solid;
+    color: blue;
+    font-weight: bold;
+    font-size: 1rem;
+    background-repeat: repeat-x;
+    background-position: center;
+}
+section.antiguo{
+    background: rgb(173, 208, 255) url(img/valencia_antigua2.jpg) center/300px;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
